@@ -2,12 +2,14 @@ package com.example.demo.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication
-public class SpringCloudGcpDemoConfigApplication {
+@EnableConfigurationProperties(MyAppProperties.class)
+public class ConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudGcpDemoConfigApplication.class, args);
+        SpringApplication.run(ConfigApplication.class, args);
     }
 
 }
