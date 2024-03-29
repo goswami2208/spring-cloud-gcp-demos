@@ -1,10 +1,10 @@
-package com.example.demo;
+package spring.cloud.gcp.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class GCSApplicationTests {
 
 	@Test
 	void contextLoads() {
